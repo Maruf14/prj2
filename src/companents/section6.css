@@ -1,0 +1,40 @@
+
+
+
+.section6{
+    padding: 160px 0 140px 0;
+    background: #252b42;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+h1{
+    font-size: 55px;
+    
+}
+.btn{
+    outline: 0;
+    border-radius: 30px;
+}
+
+.size{
+   
+    margin-bottom: -30px;
+    margin-top: -30px;
+  
+}
+
+
+@media screen and (max-width: 1060px) {
+  .size{
+    margin: 15px auto;
+
+  }
+    .like{
+        margin: 15px auto;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+}

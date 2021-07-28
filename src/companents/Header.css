@@ -1,0 +1,35 @@
+header{
+    background: #252b42;
+}
+ul  {
+    list-style-type: none;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+   }
+
+
+
+  ul li a, a:hover{
+    text-decoration: 0;
+    color: white;
+  }
+  a{
+    text-decoration: none;
+  }
+  .menu-phone{
+
+    overflow: hidden;
+    animation-name: show;
+    animation-duration: 0.3s;
+  }
+  @keyframes show {
+    0% {
+height: 0;
+    }
+
+    100%{
+      height: 100%;
+    }
+  }
